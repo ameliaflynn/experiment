@@ -1095,3 +1095,24 @@ table.border{
 .orange{
     color:orange;
 }
+/* add del edit toggle button */
+
+#edit-toggle-button {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  background-color: #2b2b2b;
+  color: #fff;
+  border: none;
+  padding: 0.6em 1em;
+  border-radius: 5px;
+  font-size: 0.9em;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+#edit-toggle-button:hover {
+  background-color: #444;
+}
