@@ -39,7 +39,7 @@ of this software, even if advised of the possibility of such damage.
 @import url(odd.css);
 body.simple{
     color:#000000;
-    background-color:#FFB6C1;
+    background-color:#FFFFFF;
     margin:10pt;
 }
 
@@ -448,43 +448,46 @@ a.toclist:link
     text-decoration:none;
 }
 
-/* notes */
+MODIFY THIS SO THAT I GET A HOVER TOOLTIp
+
+/\* notes \*/
 div.noteHeading{
-    margin-top:9pt;
-    border:0;
-    border-top:1pt;
-    border-style:solid;
-    padding-top:6pt;
-    font-size:larger;
-    font-weight:bold;
+margin-top:9pt;
+border:0;
+border-top:1pt;
+border-style\:solid;
+padding-top:6pt;
+font-size\:larger;
+font-weight\:bold;
 }
 div.noteBody{
-    display:inline;
+display\:inline;
 }
 
 div.note{
-    margin-left:2em;
-    margin-right:2em;
-    margin-bottom:3pt;
-    margin-top:3pt;
-    text-indent:-1em;
+margin-left:2em;
+margin-right:2em;
+margin-bottom:3pt;
+margin-top:3pt;
+text-indent:-1em;
 }
 
 span.noteLabel{
-    vertical-align:super;
-    font-size:smaller;
-    font-style:italic;
+vertical-align\:super;
+font-size\:smaller;
+font-style\:italic;
 }
-span.note:before{
-    content:" [";
+span.note\:before{
+content:" \[";
 }
-span.note:after{
-    content:"] ";
+span.note\:after{
+content:"] ";
 }
 
 span.note{
-    font-size:smaller;
+font-size\:smaller;
 }
+
 /* address */
 span.address {
     display: block;
