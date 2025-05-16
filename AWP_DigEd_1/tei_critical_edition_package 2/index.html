@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Critical Edition with Toggle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Are Women People? — Critical Edition (Sample)</h1>
+
+  <div id="controls">
+    <button onclick="toggleWitness('A')">Show Witness A</button>
+    <button onclick="toggleWitness('B')">Show Witness B</button>
+  </div>
+
+  <p>I went 
+    <span class="variant">
+      <span class="rdg rdg-A">quickly</span>
+      <span class="rdg rdg-B hidden">happily</span>
+    </span>
+    to school.
+  </p>
+
+  <script src="toggle.js"></script>
+</body>
+</html>
